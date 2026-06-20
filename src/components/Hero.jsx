@@ -30,7 +30,7 @@ function Hero() {
         <div className="hero-buttons">
 
           <a href="#contact" className="primary-btn">
-              Book Free Demo
+              Book Executive Assessment
           </a>
 
           <a href="#dashboard" className="secondary-btn">
