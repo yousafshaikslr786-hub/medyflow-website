@@ -1,7 +1,8 @@
 .features{
-    padding:100px 8%;
+    padding:80px 8%;
     background:white;
 }
+
 
 .section-title{
     text-align:center;
@@ -31,7 +32,7 @@
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:35px;
-    margin-top:70px;
+    margin-top:50px;
 }
 
 .feature-card{

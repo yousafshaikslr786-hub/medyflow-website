@@ -7,7 +7,7 @@
     justify-content:space-between;
     align-items:center;
 
-    padding:18px 8%;
+    padding:22px 8%;
 
     background:white;
     border-bottom:1px solid #e5e7eb;
@@ -21,13 +21,13 @@
 }
 
 .logo-area img{
-    width:46px;
-    height:46px;
+    width:64px;
+    height:64px;
     object-fit:contain;
 }
 
 .logo-area span{
-    font-size:30px;
+    font-size:36px;
     font-weight:800;
     color:#14B8A6;
 }
