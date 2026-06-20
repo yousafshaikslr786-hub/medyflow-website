@@ -1,0 +1,64 @@
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:"Inter",sans-serif;
+  background:#F8FAFC;
+  color:#0F172A;
+  overflow-x:hidden;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+button{
+  font-family:inherit;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+section{
+  padding:100px 8%;
+}
+
+section{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+    opacity:0;
+    transform:translateY(30px);
+
+}
+
+to{
+
+    opacity:1;
+    transform:translateY(0);
+
+}
+
+}

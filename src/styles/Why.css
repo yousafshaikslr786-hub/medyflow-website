@@ -1,0 +1,83 @@
+.why{
+
+    padding:120px 8%;
+
+    background:#F8FBFD;
+
+    text-align:center;
+
+}
+
+.why span{
+
+    color:#11B5AE;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+}
+
+.why h2{
+
+    font-size:58px;
+
+    margin:25px 0 70px;
+
+    color:#0F172A;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+.why-card{
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:24px;
+
+    transition:.35s;
+
+    box-shadow:0 15px 45px rgba(0,0,0,.05);
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.why-card h1{
+
+    color:#11B5AE;
+
+    font-size:60px;
+
+}
+
+.why-card h3{
+
+    margin:20px 0;
+
+    font-size:28px;
+
+}
+
+.why-card p{
+
+    color:#64748B;
+
+    line-height:1.8;
+
+}

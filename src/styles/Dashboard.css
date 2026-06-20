@@ -1,0 +1,131 @@
+.dashboard-section{
+
+    padding:120px 8%;
+
+    background:white;
+
+}
+
+.dashboard-content{
+    transition:.35s;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:80px;
+
+}
+
+.dashboard-left{
+
+    flex:1;
+
+}
+
+.dashboard-right{
+
+    flex:1;
+
+}
+
+.dashboard-tag{
+
+    background:#D9F6F4;
+
+    color:#0F766E;
+
+    padding:10px 22px;
+
+    border-radius:30px;
+
+    font-weight:700;
+
+    display:inline-block;
+
+    margin-bottom:25px;
+
+    transition:.3s;
+}
+.dashboard-tag:hover{
+
+    transform:scale(1.05);
+
+}
+.dashboard-left h2{
+
+    font-size:52px;
+
+    color:#0F172A;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+
+}
+
+.dashboard-left p{
+
+    color:#64748B;
+
+    font-size:24px;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+    max-width:700px;
+
+}
+
+.dashboard-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    font-size:18px;
+
+    color:#0F172A;
+
+}
+
+.dashboard-right img{
+
+    width:100%;
+
+    border-radius:24px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+    transition:all .35s ease;
+
+}
+
+.dashboard-right img:hover{
+
+    transform:translateY(-8px) scale(1.02);
+
+    box-shadow:
+
+    0 35px 80px rgba(17,181,174,.18);
+
+}
+
+.dashboard-list div{
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.dashboard-list div:hover{
+
+    color:#11B5AE;
+
+    transform:translateX(8px);
+
+}
