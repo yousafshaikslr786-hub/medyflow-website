@@ -24,8 +24,8 @@ function Contact() {
             .then(() => {
             Swal.fire({
                 icon: "success",
-                title: "Demo Request Sent!",
-                text: "Our team will contact you within 24 hours.",
+                title: "Assessment Request Received!",
+                text: "Thank you. Our team will review your request and contact you within 24 hours to schedule your Hospital Executive Assessment.",
                 confirmButtonColor: "#11B5AE",
             });
             form.current.reset();
@@ -45,23 +45,31 @@ function Contact() {
 
       <div className="contact-left">
 
-        <span>BOOK A DEMO</span>
+        <span>HOSPITAL EXECUTIVE ASSESSMENT</span>
 
         <h2>
-          See MedYFlow AI
+          Book a Hospital
           <br />
-          In Action
+          Executive Assessment
         </h2>
 
         <p>
-          Schedule a personalized demo and discover how MedYFlow AI
-          helps hospitals recover revenue, reduce missed follow-ups
-          and improve patient care.
-        </p>
+            Meet with our healthcare technology team to evaluate your
+            hospital's recovery workflow, identify hidden revenue leakage,
+            and receive AI-driven recommendations tailored to your organization.
+            </p>
+
+            <div className="assessment-box">
+            <h3>Executive Assessment</h3>
+            <h2>₹1,999</h2>
+            <p> ✓ Credited 100% toward your Pilot or First Subscription.</p>
+        </div>
+
+        
 
         <div className="contact-info">
          <p>
-            <FaPhoneAlt /> Available on Demo Request
+            <FaPhoneAlt /> Available by Appointment
             </p>
 
             <p>
@@ -112,12 +120,12 @@ function Contact() {
         <textarea
             name="message"
             rows="5"
-            placeholder="Tell us about your hospital..."
+            placeholder="Tell us about your hospital, specialties, current HMS, and recovery challenges..."
             required
         ></textarea>
 
         <button type="submit">
-            Schedule Free Demo
+            Book Hospital Executive Assessment
         </button>
 
       </form>

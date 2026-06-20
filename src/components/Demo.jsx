@@ -6,7 +6,7 @@ function Demo() {
 
       <span>LIVE DEMO</span>
 
-      <h2>See MedYFlow AI In Action</h2>
+      <h2>Book a Hospital Executive Assessment</h2>
 
       <p>
         Experience how MedYFlow AI automates follow-ups,

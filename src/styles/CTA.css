@@ -55,3 +55,17 @@
     transform:translateY(-4px);
 
 }
+
+.cta-note{
+    margin-top:20px;
+    font-size:18px;
+    color:#ffffff;
+    opacity:0.95;
+    font-weight:500;
+    line-height:1.6;
+}
+
+.cta-note strong{
+    color:#FFD54F;
+    font-weight:700;
+}

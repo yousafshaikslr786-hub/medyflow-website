@@ -2,23 +2,29 @@ import "../styles/CTA.css";
 
 function CTA() {
   return (
-    <section 
-       className="cta"
-       data-aos="zoom-in"
+    <section
+      className="cta"
+      data-aos="zoom-in"
     >
 
-      <h2>Ready to Recover More Revenue?</h2>
+      <h2>Ready to Recover Lost Revenue?</h2>
 
       <p>
-        Book a free MedYFlow AI demo today and discover how
-        your hospital can automate patient follow-ups.
+        Book a personalized Hospital Assessment with MedYFlow AI.
+        Discover hidden revenue opportunities, evaluate your follow-up workflow,
+        and see how AI can improve patient recovery.
       </p>
 
       <a href="#contact" className="primary-btn">
-        Schedule Demo
+         Book Executive Assessment
       </a>
 
-    </section>
+      <p className="cta-note">
+        <strong>₹1,999 Executive Assessment</strong><br />
+        100% adjusted against your Pilot or First Subscription.
+      </p>
+
+    </section >
   );
 }
 
