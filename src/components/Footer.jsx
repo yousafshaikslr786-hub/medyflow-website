@@ -18,6 +18,13 @@ function Footer() {
             recover revenue, improve follow-ups and deliver better care.
           </p>
 
+          {/* Founder */}
+          <div className="founder-info">
+            <span>Founded by</span>
+            <h4>Yousaf Shaik</h4>
+            <p>Founder & Chief Executive Officer, MedYFlow AI</p>
+          </div>
+
         </div>
 
         <div>

@@ -43,4 +43,34 @@
     padding-top:25px;
     text-align:center;
     color:#94A3B8;
+
+
+}
+
+.founder-info{
+    margin-top:40px;
+    padding-top:24px;
+    border-top:1px solid rgba(255,255,255,0.15);
+}
+
+.founder-info span{
+    display:block;
+    font-size:13px;
+    color:#94A3B8;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:6px;
+}
+
+.founder-info h4{
+    margin:0;
+    font-size:18px;
+    font-weight:700;
+    color:#ffffff;
+}
+
+.founder-info p{
+    margin-top:6px;
+    font-size:15px;
+    color:#CBD5E1;
 }
